@@ -11,4 +11,8 @@ export class Workshop {
         if (isDivisibleByFive) return "Buzz";
         return a;
     }
+
+    leapYear(y: number) {
+        return true;
+    }
 }
