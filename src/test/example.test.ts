@@ -8,4 +8,11 @@ describe('Workshop', () => {
         })
     })
 
+describe('fizzBuzz', () => {
+    it("Given one return one" , () => {
+        let example: Workshop = new Workshop();
+        expect(example.fizzBuzz(1)).toBe(1);
+    })
+})
+
 })
