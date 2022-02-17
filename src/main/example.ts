@@ -13,6 +13,9 @@ export class Workshop {
     }
 
     leapYear(y: number) {
-        return true;
+        if (y % 4 === 0) {
+            return true;
+        } 
+        return false;
     }
 }
