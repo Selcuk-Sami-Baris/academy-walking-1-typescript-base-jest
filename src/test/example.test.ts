@@ -80,6 +80,11 @@ Notes: We will try a MOB programming session where we’ll be all coding on one 
             let example: Workshop = new Workshop();
             expect(example.leapYear(1900)).toBe(false);
         })
+
+        it('Given 2000 return true', () => {
+            let example: Workshop = new Workshop();
+            expect(example.leapYear(2000)).toBe(true);
+        })
     })
 
 
