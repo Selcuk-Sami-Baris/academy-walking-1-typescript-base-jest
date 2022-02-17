@@ -55,6 +55,13 @@ describe.skip('fizzBuzz', () => {
 A leap year is defined as one that is divisible by 4, but is not otherwise divisible by 100 unless it is also divisible by 400. 
 For example, 2001 is a typical common year and 1996 is a typical leap year, whereas 1900 is an atypical common year and 2000 is an atypical leap year.
 
+
+1996
+2001
+
+1900
+2000
+
 Notes: We will try a MOB programming session where we’ll be all coding on one station at a time, handing over the code. Let’s try to setup https://github.com/remotemobprogramming/mob so we can make this easier
  */
 
@@ -67,6 +74,11 @@ Notes: We will try a MOB programming session where we’ll be all coding on one 
         it('Given 2001 return false', () => {
             let example: Workshop = new Workshop();
             expect(example.leapYear(2001)).toBe(false);
+        })
+
+        it('Given 1900 return false', () => {
+            let example: Workshop = new Workshop();
+            expect(example.leapYear(1900)).toBe(false);
         })
     })
 
