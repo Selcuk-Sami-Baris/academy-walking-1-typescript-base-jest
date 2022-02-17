@@ -24,6 +24,7 @@ describe('fizzBuzz', () => {
         expect(example.fizzBuzz(3)).toBe("Fizz");
     })
 
+    // as this passed without any new code being added, was this test worth adding?
     it("Given four return four", () => {
         let example: Workshop = new Workshop();
         expect(example.fizzBuzz(4)).toBe(4);
@@ -32,6 +33,11 @@ describe('fizzBuzz', () => {
     it("Given five return Buzz", () => {
         let example: Workshop = new Workshop();
         expect(example.fizzBuzz(5)).toBe("Buzz");
+    })
+
+    it("Given six return fizz", () => {
+        let example: Workshop = new Workshop();
+        expect(example.fizzBuzz(6)).toBe("Fizz");
     })
 })
 })
