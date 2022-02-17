@@ -4,6 +4,6 @@ export class Workshop {
     }
 
     fizzBuzz(a: number) {
-        return 1;
+        return a;
     }
 }
