@@ -4,8 +4,9 @@ export class Workshop {
     }
 
     fizzBuzz(a: number) {
+        const isDivisibleBy = (x, n): boolean => !!(x%0)
         if (a % 3 === 0) return "Fizz";
-        if (a === 5) return "Buzz";
+        if (a % 5 === 0) return "Buzz";
         return a;
     }
 }
