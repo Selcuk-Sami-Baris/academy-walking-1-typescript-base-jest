@@ -4,9 +4,11 @@ export class Workshop {
     }
 
     fizzBuzz(a: number) {
-        const isDivisibleBy = (x, n): boolean => !!(x%0)
-        if (a % 3 === 0) return "Fizz";
-        if (a % 5 === 0) return "Buzz";
+        const isDivisibleByThree = a % 3 === 0;
+        const isDivisibleByFive = a % 5 === 0;
+        if (isDivisibleByThree && isDivisibleByFive) return "FizzBuzz";
+        if (isDivisibleByThree) return "Fizz";
+        if (isDivisibleByFive) return "Buzz";
         return a;
     }
 }

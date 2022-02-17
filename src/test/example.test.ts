@@ -35,14 +35,19 @@ describe('fizzBuzz', () => {
         expect(example.fizzBuzz(5)).toBe("Buzz");
     })
 
-    it("Given six return fizz", () => {
+    it("Given six return Fizz", () => {
         let example: Workshop = new Workshop();
         expect(example.fizzBuzz(6)).toBe("Fizz");
     })
 
-    it("Given 10 return buzz", () => {
+    it("Given 10 return Buzz", () => {
         let example: Workshop = new Workshop();
         expect(example.fizzBuzz(10)).toBe("Buzz");
+    })
+
+    it("Given 15 return FizzBuzz", () => {
+        let example: Workshop = new Workshop();
+        expect(example.fizzBuzz(15)).toBe("FizzBuzz");
     })
 })
 })
