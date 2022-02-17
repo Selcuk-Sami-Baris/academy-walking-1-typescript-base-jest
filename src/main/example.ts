@@ -4,6 +4,7 @@ export class Workshop {
     }
 
     fizzBuzz(a: number) {
+        if (a === 3) return "Fizz";
         return a;
     }
 }
