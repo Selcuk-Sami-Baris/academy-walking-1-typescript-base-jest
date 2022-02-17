@@ -1,5 +1,7 @@
 # How to use this repo during the training
 
+## TEST
+
 1. Navigate to the repo here [https://github.com/codurance/academy-walking-1-typescript-base-jest](https://github.com/codurance/academy-walking-1-typescript-base-jest)
 2. Click the Fork button from the top right corner of the page
 3. Chose to fork the code to your personal github account
